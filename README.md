@@ -1,9 +1,9 @@
 # Cascade Legal Support Website Concepts
 
-Five professional website directions prepared for Cascade Legal Support.
+Seven fresh, professional Northwest-themed website directions for Cascade Legal Support. Each concept incorporates the existing Cascade mountain-and-column logo as a central design element.
 
-Once GitHub Pages finishes publishing, open:
+View the comparison site:
 
 **https://randjadams-ux.github.io/cascadelegal/**
 
-The homepage links to all five concepts.
+Use the numbered selector on any concept page to move among all seven designs.
