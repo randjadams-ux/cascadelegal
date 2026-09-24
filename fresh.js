@@ -8,8 +8,8 @@ const themes={
 7:{name:'Cascade Editorial',label:'Cascade Legal Support LLC',headline:'Your practice, supported.',blurb:'Detail-driven assistance for attorneys and law firms that value careful work, responsive communication, and reliable follow-through.',photo:'assets/cascades-alpine.webp',photoAlt:'A crisp alpine view of a snow-covered Cascade mountain',photoPos:'61% center'},
 8:{name:'Mount Hood Reflection',label:'Oregon legal support • Clear and dependable',headline:'Clarity for the work that keeps cases moving.',blurb:'Responsive, attorney-directed support for law firms that need careful work, reliable communication, and flexible capacity.',photo:'assets/mount-hood-mirror-lake.webp',photoAlt:'Mount Hood reflected in Mirror Lake, Oregon',photoPos:'58% center'}
 };
-const logo=t.logo||'assets/cascade-logo-horizontal.png';
-const n=Number(document.body.dataset.theme||1),t=themes[n];document.title=`${t.name} | Cascade Legal Support`;
+const n=Number(document.body.dataset.theme||1),t=themes[n];
+const logo=t.logo||'assets/cascade-logo-horizontal.png';document.title=`${t.name} | Cascade Legal Support`;
 const picker=Object.keys(themes).map(k=>`<a class="${Number(k)===n?'active':''}" href="concept-${k}.html" aria-label="View concept ${k}">${k}</a>`).join('');
 document.querySelector('#app').innerHTML=`
 <div class="picker" aria-label="Website concepts">${picker}</div>
